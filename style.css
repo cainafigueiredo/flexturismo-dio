@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    margin: auto;
+    max-width: 1280px;
+    align-items: center;
+}
+
+.flex-container {
+    display: flex;
+}
+
+header {
+    display: flex;
+    padding: 25px 100px;
+    background-color: #00006b;
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar {
+    display: flex;
+    list-style: none;
+}
+
+.nav-item {
+    margin: 15px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer {
+    padding: 30px 90px;
+    background-color: #00006b;
+    color: #fff;
+}
